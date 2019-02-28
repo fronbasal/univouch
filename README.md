@@ -22,3 +22,6 @@ Flags:
   --note="Generated Vouchers"  Voucher note
 ```
 
+## Installation
+
+Installation is trivial. Use the golang toolchain (`go get github.com/fronbasal/univouch`).

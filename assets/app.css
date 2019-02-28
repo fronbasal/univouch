@@ -1,0 +1,56 @@
+img.voucher-icon {
+    height: 1.4cm;
+    float: right;
+    margin-right: 0.7cm;
+}
+
+.voucher {
+    height: 2cm;
+    font-size: 1cm;
+    font-family: monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+
+    border: 1px solid #222;
+    float: left;
+    margin-top: 1vh;
+}
+
+#app {
+    display: inline;
+}
+
+.true {
+    float: left;
+}
+
+.false {
+    float: right;
+}
+
+@media print {
+    .unprintable {
+        display: none !important;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: monospace;
+    font-size: 4vh;
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+button {
+    font-size: 4vh;
+    font-family: monospace;
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+}

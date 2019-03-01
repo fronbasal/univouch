@@ -17,6 +17,8 @@ img.voucher-icon {
     border: 1px solid #222;
     float: left;
     margin-top: 1vh;
+
+    background: #eee;
 }
 
 #app {
@@ -37,6 +39,7 @@ img.voucher-icon {
     }
 }
 
+
 h1 {
     text-align: center;
     color: red;
@@ -53,4 +56,8 @@ button {
     position: fixed;
     top: 2vh;
     left: 2vh;
+}
+
+.page {
+    margin-bottom: 2cm;
 }

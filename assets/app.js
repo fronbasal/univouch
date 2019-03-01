@@ -5,7 +5,11 @@ fetch("/api/vouchers").then(e => {
     let i = 1;
     data.forEach(voucher => {
         i++;
-        document.querySelector("#app").innerHTML += "<div class=\"voucher " + (i % 2 === 0) + "\"><img class=\"voucher-icon\" src=\"/assets/icon.png\">" + voucher.Code + "</div>";
+        let n = "";
+        if (i % 24 === 0 || i % 25 === 0) {
+            n = "page";
+        }
+        document.querySelector("#app").innerHTML += "<div class=\"voucher " + (i % 2 === 0) + " " + n + "\"><img class=\"voucher-icon\" src=\"/assets/icon.png\">" + voucher.Code + "</div>";
     });
 });
 
